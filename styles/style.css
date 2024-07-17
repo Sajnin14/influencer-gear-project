@@ -124,20 +124,95 @@ header{
 }
 
 /* main section styles */
-
+main section{
+    max-width: 1100px;
+   margin: 7rem 14rem;
+}
 
 /* brand section styles */
 .brand{
-   max-width: 1100px;
-   margin: 7rem 14rem;
+    /* max-width: 1100px;
+   margin: 7rem 14rem; */
+   border: 1px solid rgba(0, 0, 0, 0.099);
+   border-left: none;
+   border-right: none;
+   
     
 }
 .brand-container{
+    
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 3rem;
+    padding: 3rem 7rem;
 }
 
 /* .brand-container{
     justify-content: space-between;
 } */
+
+
+/* popular collection style */
+
+
+
+.collection-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 28%;
+}
+
+.collection{
+    max-width: 300px;
+    height: 477px;
+    padding: 18px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.07);
+    gap: 30px;
+    
+
+}
+
+.collection-header{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4.8rem;
+    
+
+}
+.collection-img img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.collection-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 12px 0;
+    
+}
+
+.collection-price{
+    font-family: "Inter", sans-serif;
+    font-size: 2.8rem;
+}
+
+.col-icon{
+    color: #FB8200;
+    font-size: 1.2rem;
+    
+    
+}
+
+.description{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #787885;
+    width: 190px;
+}
+
+.collection-rating{
+    margin: 10px 0 4px 0;
+}
