@@ -1,12 +1,12 @@
 /* responsive for mobile device */
 
 @media screen and (max-width:576px){
-     
+     /* navbar  */
     .header-nav{
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 4px;
+        margin-right: 4px; */
     }
     .nav-link, .dot{
         display: none;
@@ -14,7 +14,23 @@
 
     .nav-burger, .cart{
         display: block;
+        
     }
+
+    .header-contentainer{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .header-content{
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    
 
 
 }

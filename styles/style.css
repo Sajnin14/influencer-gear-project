@@ -19,11 +19,16 @@ body{
     font-family: "Poppins", sans-serif;
     max-width: 1280px;
     margin: 30px auto;
+    color: #3A3A3A;
 }
 
 .flex{
     display: flex;
     gap: 3.2rem;
+}
+
+header{
+    margin: 1rem 10rem;
 }
 /* navbar styles */
 
@@ -34,7 +39,6 @@ body{
 .header-brand{
     font-size: 2.4rem;
     font-weight: 700;
-    color: #3A3A3A;
 }
 .nav-link{
     list-style: none;
@@ -43,8 +47,8 @@ body{
 .nav-link a{
     text-decoration: none;
     font-size: 1.6rem;
-    color: #3A3A3A;
     font-weight: 500;
+    color: #3A3A3A;
 }
 .nav-icon{
     height: 22px;
@@ -58,7 +62,7 @@ body{
     border-radius: 50%;
     position: absolute;
     top: 35px;
-    right: 43px;
+    right: 142px;
 }
 
 .dot-icon{
@@ -67,4 +71,52 @@ body{
 
 .nav-burger{
     display: none;
+}
+
+/* header styles */
+
+.header-contentainer{
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.header-content{
+    margin-top: 48px;
+    width: 56%;
+}
+.header-title{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.header-description{
+    font-size: 1.6rem;
+    font-weight:500;
+    margin: 14px 0;
+}
+.header-btn a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+}
+
+.header-btn{
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    margin-top: 10px;
+    
+}
+
+.header-img{
+    width: 36%;
+}
+
+.header-img img{
+    max-height: 380px;
+    max-width: 400px;
+    background-image: url(../images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
